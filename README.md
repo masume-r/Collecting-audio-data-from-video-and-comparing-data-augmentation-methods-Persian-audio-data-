@@ -27,6 +27,4 @@ We use Mel Spectrograms as the visual representation of audio, and train CNN-bas
 - Visualize results using accuracy plots and confusion matrices
 
 
-## 🗂️ Project Structure
 
-fa-audio-augmentation/ ├── README.md ├── requirements.txt ├── notebooks/ │ ├── 01_data_collection.ipynb │ ├── 02_silence_segmentation.ipynb │ ├── 03_augmentation_noise.ipynb │ ├── 04_augmentation_pitch.ipynb │ ├── 05_augmentation_stretch.ipynb │ ├── 06_augmentation_mixed.ipynb │ ├── 07_melspectrogram_generation.ipynb │ └── 08_model_training.ipynb ├── results/ │ ├── accuracy_plots/ │ ├── confusion_matrices/ │ └── summary_metrics.csv ├── models/ │ └── best_model_noise.pth ├── utils/ │ ├── audio_utils.py │ └── plot_utils.py └── .gitignore
