@@ -26,5 +26,14 @@ We use Mel Spectrograms as the visual representation of audio, and train CNN-bas
 - Train and evaluate CNN models (e.g., ResNet18)
 - Visualize results using accuracy plots and confusion matrices
 
+- 
+## 🛠️ Installation
+
+To run this project locally:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/masume-r/Collecting-audio-data-from-video-and-comparing-data-augmentation-methods-Persian-audio-data-.git
+
 
 
