@@ -109,7 +109,6 @@ Feel free to open issues, create pull requests, or suggest improvements to make 
 
 ## ✨ Acknowledgements
 
-- Thanks to SeoulTech DS Lab for support and resources.
 - Special thanks to the open-source community and libraries such as PyTorch, torchvision, torchaudio, librosa, and scikit-learn.
 
 
