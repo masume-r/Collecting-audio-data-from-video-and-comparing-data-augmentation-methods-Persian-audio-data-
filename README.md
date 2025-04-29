@@ -38,11 +38,6 @@ To run this project locally:
    pip install -r requirements.txt
 
 
-
-
-
-
-
 ## 🗂️ Project Structure
 comparing-data-augmentation-methods/ ├── notebooks/ # All Jupyter notebooks for each step │ ├──
  01_data_collection.ipynb │ ├── 02_silence_segmentation.ipynb │ ├── 03_create_csv_from_segments.ipynb │ ├── 04_clean_and_balance_labeled_data.ipynb │ ├── 05_split_final_data.ipynb │ ├── 06_data_augmentation_final_fixed.ipynb │ ├── 07_generate_melspectrogram.ipynb │ ├── 08_prepare_augmented_csvs.ipynb │ ├── 09_prepare_test_data.ipynb │ ├── 10_Train_a_Model_(ResNet18_Fine_Tuning).ipynb │ ├── 11_Train_a_Model_(ResNet18_Fine_Tuning)Noise_aug.ipynb │ ├──  12_Train_a_Model(ResNet18_Fine_Tuning)pitch_aug.ipynb │ ├── 13_Train_a_Model(ResNet18_Fine_Tuning)stretched_aug.ipynb │ ├── 14_Train_a_Model(ResNet18_Fine_Tuning)_Mixed_Augmentation.ipynb │ └── visualization.ipynb ├── requirements.txt # List of required Python packages ├── README.md # Project documentation (this file)
@@ -104,7 +99,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 Contributions are welcome!  
 Feel free to open issues, create pull requests, or suggest improvements to make this project better.
-
+Although this project was conducted using Persian-language audio data, the entire pipeline is language-independent and can be applied to any language or speech dataset with minimal adjustments.
 ---
 
 ## ✨ Acknowledgements
