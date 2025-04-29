@@ -65,10 +65,6 @@ comparing-data-augmentation-methods/ ├── notebooks/ # All Jupyter notebook
 - pandas
 - numpy
 
-All dependencies can be installed using:
-
-```bash
-pip install -r requirements.txt
 
 
 
