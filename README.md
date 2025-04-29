@@ -98,8 +98,8 @@ This project is licensed under the [MIT License](LICENSE).
 ## 🤝 Contributing
 
 Contributions are welcome!  
-Feel free to open issues, create pull requests, or suggest improvements to make this project better.
-Although this project was conducted using Persian-language audio data, the entire pipeline is language-independent and can be applied to any language or speech dataset with minimal adjustments.
+Feel free to open issues, create pull requests, or suggest improvements to make this project better. Although this project was conducted using Persian-language audio data, the entire pipeline is language-independent and can be applied to any language or speech dataset with minimal adjustments.
+
 ---
 
 ## ✨ Acknowledgements
