@@ -34,9 +34,8 @@ To run this project locally:
 1. Clone the repository:
    ```bash
    git clone https://github.com/masume-r/Collecting-audio-data-from-video-and-comparing-data-augmentation-methods-Persian-audio-data-.git
-
-cd comparing-data-augmentation-methods
-pip install -r requirements.txt
+   cd comparing-data-augmentation-methods
+   pip install -r requirements.txt
 
 
 
@@ -75,7 +74,7 @@ comparing-data-augmentation-methods/ ├── notebooks/ # All Jupyter notebook
 - Visualized performance through confusion matrices and accuracy plots.
 - Mixed augmentation showed slightly better generalization than individual methods.
 
-evaluated each augmentation method by training a ResNet-18 model on the augmented datasets and measuring its best test accuracy. The comparison results are presented below.
+Evaluated each augmentation method by training a ResNet-18 model on the augmented datasets and measuring its best test accuracy. The comparison results are presented below.
 
 ### 📋 Accuracy Table
 
