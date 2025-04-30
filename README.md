@@ -107,7 +107,26 @@ Feel free to open issues, create pull requests, or suggest improvements to make 
 - Special thanks to the open-source community and libraries such as PyTorch, torchvision, torchaudio, librosa, and scikit-learn.
 
 
+## 📌 기술 평가 항목 대응 내역
 
+- **[1. 데이터사이언스 공통]**  
+  Python을 기반으로 데이터 처리, 오디오 분할, 라벨링, 모델 학습 등 전체 파이프라인을 직접 구현하였습니다.
+
+- **[3. 데이터 수집 및 정제]**  
+  영화에서 오디오를 추출하고, 무음 감지를 통해 발화 단위로 분리하였습니다.  
+  .wav 데이터를 전처리하고, Mel Spectrogram으로 변환하여 모델 입력으로 활용하였습니다.
+
+- **[4. 수집한 데이터셋의 유용성]**  
+  직접 감정 라벨링을 수행하여 4가지 감정 클래스로 분류하였고,  
+  데이터를 CSV 파일로 저장 및 정제하여 모델 훈련에 활용 가능한 형태로 구성하였습니다.
+
+- **[7. 데이터 활용 및 분석]**  
+  PyTorch와 torchvision을 사용하여 Mel Spectrogram 기반 ResNet18 모델을 학습하였고,  
+  감정 분류 성능 비교를 위해 4가지 오디오 데이터 증강 기법  
+  (**배경 소음 추가, 피치 변조, 속도 조절, 혼합 증강**)을 적용하여 파인튜닝 실험을 수행하였습니다.
+
+- **[8. 데이터 시각화]**  
+  증강 기법별 정확도 비교, 혼동 행렬, 학습 손실 그래프 등을 시각화하여 모델 성능을 분석하였습니다.
 
 
 
